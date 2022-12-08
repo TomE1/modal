@@ -83,10 +83,19 @@ form button:hover {
 }
 
 @keyframes slide {
-  from {
-    transform: translateY(-30);
+  0% {
+    transform: translateY(-30rem);
   }
-  to {
+  100% {
     transform: translateY(0);
   }
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
 }
